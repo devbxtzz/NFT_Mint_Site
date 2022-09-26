@@ -3,7 +3,7 @@ import { Contract, ethers } from "ethers";
 import { useEffect, useState } from "react";
 import contractABI from "./contractABI.json";
 
-const contractAddress = "<your-contract-address-here>";
+const contractAddress = "0x32ED0A6C66D999A6Cb22C60Cd9cf3722690421F5";
 
 function App() {
  
