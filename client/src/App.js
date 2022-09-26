@@ -45,26 +45,35 @@ function App() {
  
 
     const data = [
-        {
-            url: "./assets/images/1.png",
-            param: "handleMint('<your-metadata-pinata-link-here>')",
-        },
-        {
-          url: "./assets/images/2.png",
-            param: "handleMint('<your-metadata-pinata-link-here>')",
-        },
-        {
-          url: "./assets/images/3.png",
-            param: "handleMint('<your-metadata-pinata-link-here>')",
-        },
-        {
-          url: "./assets/images/4.png",
-            param: "handleMint('<your-metadata-pinata-link-here>')",
-        },
-        {
-          url: "./assets/images/5.png",
-            param: "handleMint('<your-metadata-pinata-link-here>')",
-        },
+      {
+        "description": "This is polar bear NFT",
+        "image": "https://gateway.pinata.cloud/ipfs/QmXZ3TgRgd5EZEk2DhwGvjf8f6sQJNCrnHzrEw1oHufgnL/1.png",
+        "name": "Polar Bear"
+    },
+    
+    {
+        "description": "This is a cow NFT",
+        "image": "https://gateway.pinata.cloud/ipfs/QmXZ3TgRgd5EZEk2DhwGvjf8f6sQJNCrnHzrEw1oHufgnL/2.png",
+        "name": "Cow"
+    },
+    
+    {
+        "description": "This is a lion NFT",
+        "image": "https://gateway.pinata.cloud/ipfs/QmXZ3TgRgd5EZEk2DhwGvjf8f6sQJNCrnHzrEw1oHufgnL/3.png",
+        "name": "Lion"
+    },
+    
+    {
+        "description": "This is a fox NFT",
+        "image": "https://gateway.pinata.cloud/ipfs/QmXZ3TgRgd5EZEk2DhwGvjf8f6sQJNCrnHzrEw1oHufgnL/4.png",
+        "name": "Fox"
+    },
+    
+    {
+        "description": "This is a dog NFT",
+        "image": "https://gateway.pinata.cloud/ipfs/QmXZ3TgRgd5EZEk2DhwGvjf8f6sQJNCrnHzrEw1oHufgnL/5.png",
+        "name": "dog"
+    },
     ];
 
     async function withdrawMoney(){
